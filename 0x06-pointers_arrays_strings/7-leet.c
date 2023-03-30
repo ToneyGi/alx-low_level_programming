@@ -7,7 +7,7 @@
  * letters o and O are replaced by 0
  * letters t and T are replaced by 7
  * letters l and L are replaced by 1
- * @c: pointer to string.
+ * @s: pointer to string.
  *
  * Return: ponter to s.
  */
