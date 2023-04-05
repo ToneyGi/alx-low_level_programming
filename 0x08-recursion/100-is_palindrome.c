@@ -32,9 +32,9 @@ int comparator(char *s, int n1, int n2)
 }
 
 /**
- * is_palindrome - detects if a sytring is a palindrome.
+ * is_palindrome - detects if a string is a palindrome.
  * @s: string.
- * Retunr: 1 if s is a palindrome, 0 if not.
+ * Return: 1 if s is a palindrome, 0 if not.
  */
 int is_palindrome(char *s)
 {
