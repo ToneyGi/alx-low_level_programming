@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /*
- * main - Print the multiplication of two args numbers
+ * main - Prints the multiplication of two args numbers
  * @argc: argument count
  * @argv: argument vector
  *
@@ -17,12 +17,12 @@ int main(int argc, char *argv[])
 	{
 		n1 = atoi(argv[1]);
 		n2 = atoi(argv[2]);
-		printf("%d\n", n1 *n2);
+		printf("%d\n", n1 * n2);
 	}
 	else
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 
 	return (0);
