@@ -1,5 +1,4 @@
-:set numbers
-:#include <stdio.h>
+#include <stdio.h>
 #include "function_pointers.h"
 
 /**
