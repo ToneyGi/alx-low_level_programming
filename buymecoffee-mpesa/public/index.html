@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy Me Coffee | M-Pesa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="card">
+        <h1>☕ Buy Me Coffee</h1>
+        <p>Support my work using M-Pesa STK Push.</p>
+
+        <form id="coffee-form">
+          <label for="name">Name (optional)</label>
+          <input id="name" name="name" type="text" placeholder="Your name" />
+
+          <label for="phone">M-Pesa Number</label>
+          <input id="phone" name="phone" type="tel" placeholder="07XXXXXXXX or 2547XXXXXXXX" required />
+
+          <label for="amount">Amount (KES)</label>
+          <input id="amount" name="amount" type="number" min="1" step="1" value="100" required />
+
+          <button type="submit">Pay with M-Pesa</button>
+        </form>
+
+        <div id="status" class="status" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
